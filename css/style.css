@@ -78,6 +78,7 @@ header{
 .servicios-left div, .servicios-rigth div {
    margin: 1rem; 
    text-align: justify;
+   font-size: 1rem;
 }
 
 .servicios-left{
@@ -105,6 +106,72 @@ header{
     position: fixed;
     bottom: 0;
     right: 0;
+}
+
+.titulo{
+    margin: .5rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.banner-nosotros{
+    height: 660px;
+    display: grid;
+
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(2, 50%);
+    grid-template-areas: 
+        "uno uno dos tres"
+        "uno uno cuatro cinco"
+}
+
+.uno{
+    grid-area: uno;
+}
+.dos{
+    grid-area: dos;
+}
+.tres{
+    grid-area: tres;
+}
+.cuatro{
+    grid-area: cuatro;
+}
+.cinco{
+    grid-area: cinco;
+}
+
+.banner-nosotros div{
+    border: 2px solid salmon
+}
+
+.quienes-somos{
+    margin: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.colaborador-left div, .colaborador-rigth div{
+    margin: 1rem; 
+    text-align: justify;
+    font-size: 1rem;
+}
+
+.colaborador-rigth{
+    margin: 1rem;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.colaborador-left{
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.colaboradores img{
+    height: 200px;
 }
 
 
@@ -135,11 +202,10 @@ header{
     height: 2rem;   
 }
 
+
+
+
 /*
-.equipo{
-    margin: 10px;
-    height: 300px;
-}
 
 .colaboradores{
     margin: 20px;
@@ -150,9 +216,7 @@ header{
     font-size: 20px;
 }
 
-.colaborador{
-    height: 200px;
-}
+
 
 .colaborador p{
     font-size: 20px;
