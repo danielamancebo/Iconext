@@ -1,5 +1,5 @@
 *{
-    margin:0;
+    margin:0; 
     padding:0;
     box-sizing: border-box;
 }
@@ -21,32 +21,15 @@ header{
     top: 0;
 }
 
-.menu{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 1.2rem;   
-}
-
-.menu img{
+.img-menu{
     height: 3rem;
-    margin: .5rem;
-}
-
-.menu ul {
-    padding: .5rem;
-    list-style: none;
-    display: flex;
-    gap: 2rem;
 }
 
 .menu ul li a{
     text-decoration: none;
-    color: rgb(53, 39, 129);     
+    color: rgb(53, 39, 129);  
+    font-size: 1.2rem;   
 }
-
-
-
 
 /*estilos del main*/
 
