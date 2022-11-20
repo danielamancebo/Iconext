@@ -244,6 +244,17 @@ header{
     height: 83vh; 
 }
 
+.presentacion-tyc{
+    text-align: center;
+}
+
+        /*estilos de contacto*/
+.presentacion-contacto{
+    text-align: center;
+}
+
+        
+
     /*estilos de botones*/
 
 .un-boton{
@@ -282,6 +293,14 @@ header{
     margin-top: 1rem;
     height: 2rem;   
 }
+
+
+
+
+
+
+
+
 
 /* md */
 
@@ -367,9 +386,7 @@ header{
 
 /*no trabajado para segunda preentrega*/
 
-.formulario-contacto{
-    text-align: center;
-}
+
 
 .links-tyc{
     margin: 20px;
