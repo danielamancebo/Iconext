@@ -207,7 +207,7 @@ header{
     margin-top: 2.5rem;
     background-color: white;
     display: grid;
-    grid-template-columns: repeat(2,50%);
+    grid-template-columns: repeat(2,1fr);
     grid-template-areas: 
         "precios-por-chofer precios-por-transaccion"
         "detalle-por-chofer detalle-por-transaccion"
