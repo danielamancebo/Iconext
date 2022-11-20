@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--CSS-->
     <link rel="stylesheet" href="../css/style.css">
+    <!--link de animaciones-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!--link de fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,13 +18,13 @@
    <!--ENCABEZADO-->
    <header>
         <div class="menu">
-            <a href="../index.html"><img src="../img/logotipo-iconext.png" alt="Logotipo Iconext"></a>
+            <a href="../index.html"><img class="animate__animated animate__pulse" src="../img/logotipo-iconext.png" alt="Logotipo Iconext"></a>
             <nav>
                 <ul>
                     <li><a href="./nosotros.html"> NOSOTROS </a></li>
                     <li><a href="./precios.html"> PRECIOS </a></li>
                     <li><a href="./contacto.html"> CONTACTO </a></li>
-                    <li><a href="https://app.iconext.io"> LOG IN</a></li>
+                    <li><a class="un-boton" href="https://app.iconext.io"> LOGIN </a></li>
                 </ul>
             </nav>
         </div>
@@ -30,13 +32,13 @@
 
     <!--CONTENIDO PRINCIPAL-->
     <main>
-            <h1 class="titulo">ESTE ES NUESTRO EQUIPO</h1>
+            <h1 class="titulo-nosotros">ESTE ES NUESTRO EQUIPO</h1>
             <div class="banner-nosotros"> 
-                <div class="uno"><img src="../img/mesa-juntada.jpg" alt=""></div>
-                <div class="dos"><img src="../img/recibiendo-caja.jpg" alt=""></div>
-                <div class="tres"><img src="../img/pizarron.jpg" alt=""></div>
-                <div class="cuatro"><img src="../img/reunion-cafe.jpg" alt=""></div>
-                <div class="cinco"><img src="../img/laptop.jpg" alt=""></div>
+                <div class="foto-equipo"><img src="../img/laptop-uno.jpg" alt="Foto Equipo"></div>
+                <div class="foto-pedro-garcia"><a href="#pedro-garcia"><img src="../img/pedro-garcia-foto.jpg" alt="Foto Pedro Garcia"></a></div>
+                <div class="foto-daniela-mancebo"><a href="#daniela-mancebo"><img src="../img/daniela-mancebo-foto.jpg" alt="Foto Daniela Mancebo"></a></div>
+                <div class="foto-julian-capasso"><a href="#julian-capasso"><img src="../img/julian-capasso-foto.jpg" alt="Foto Julian Capasso"></a></div>
+                <div class="foto-daniela-reyes"><a href="#daniela-reyes"><img src="../img/daniela-reyes-foto.jpg" alt="Foto Daniela Reyes"></a></div>
             </div>
 
             <div class="quienes-somos">
@@ -44,7 +46,7 @@
             </div>   
             
             <section class="colaboradores">
-                <div class="colaborador-left">
+                <div class="colaborador-left" id="pedro-garcia">
                     <img src="../img/pedro-garcia.png" alt="Foto Pedro Garcia">
                     <div>
                         <h2>Pedro Garcia</h2>
@@ -52,7 +54,7 @@
                     </div>
                 </div>
                 
-                <div class="colaborador-rigth">
+                <div class="colaborador-rigth" id="daniela-mancebo">
                     <img src="../img/daniela-mancebo.png" alt="Foto Daniela Mancebo">
                     <div>
                         <h2>Daniela Mancebo</h2>
@@ -60,7 +62,7 @@
                     </div>
                 </div>
 
-                <div class="colaborador-left">
+                <div class="colaborador-left" id="julian-capasso">
                     <img src="../img/julian-capasso.png" alt="Foto Julian Capasso">
                     <div>
                         <h2>Julian Capasso</h2>
@@ -68,7 +70,7 @@
                     </div>
                 </div>
 
-                <div class="colaborador-rigth">
+                <div class="colaborador-rigth" id="daniela-reyes">
                     <img src="../img/daniela-reyes.png" alt="Foto Daniela Reyes">
                     <div>
                         <h2>Daniela Reyes</h2>

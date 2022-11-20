@@ -17,7 +17,7 @@ body{
 header{
     background-color: whitesmoke;
     position: sticky;
-    border: .01rem solid rgb(63,176, 129) ;
+    border: .01rem solid rgb(63,176, 129);
     top: 0;
 }
 
@@ -44,6 +44,9 @@ header{
     text-decoration: none;
     color: rgb(53, 39, 129);     
 }
+
+
+
 
 /*estilos del main*/
 
@@ -75,6 +78,10 @@ header{
 .submenu-servicios ul li img{
     height: 3.5rem;
     width: 3.5rem;
+}
+
+.submenu-servicios ul li:hover{
+    transform:scale(1.2)
 }
 
 .servicios-left div, .servicios-rigth div {
@@ -109,12 +116,13 @@ header{
     border-radius: 1rem;
     margin: 1rem;
     height: 2rem;
+    width: 2rem;
     position: fixed;
     bottom: 0;
     right: 0;
 }
 
-.titulo{
+.titulo-nosotros{
     margin: .5rem;
     font-size: 1.5rem;
     text-align: center;
@@ -123,32 +131,28 @@ header{
 .banner-nosotros{
     height: 660px;
     display: grid;
-
-    grid-template-columns: repeat(4, 25%);
-    grid-template-rows: repeat(2, 50%);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2,330px);
     grid-template-areas: 
-        "uno uno dos tres"
-        "uno uno cuatro cinco"
+        "foto-equipo foto-pedro-garcia foto-daniela-mancebo"
+        "foto-equipo foto-daniela-reyes foto-julian-capasso"
 }
 
-.uno{
-    grid-area: uno;
-}
-.dos{
-    grid-area: dos;
-}
-.tres{
-    grid-area: tres;
-}
-.cuatro{
-    grid-area: cuatro;
-}
-.cinco{
-    grid-area: cinco;
-}
 
-.banner-nosotros div{
-    border: 2px solid salmon
+.foto-equipo{
+    grid-area: foto-equipo;
+}
+.foto-pedro-garcia{
+    grid-area: foto-pedro-garcia;
+}
+.foto-daniela-mancebo{
+    grid-area: foto-daniela-mancebo;
+}
+.foto-julian-capasso{
+    grid-area: foto-julian-capasso;
+}
+.foto-daniela-reyes{
+    grid-area: foto-daniela-reyes;
 }
 
 .quienes-somos{
@@ -195,7 +199,12 @@ header{
     font-size: 1.5rem;   
 }
 
+.presentacion-precios p{
+    margin-bottom: 2rem;
+}
+
 .lista-de-precios{
+    margin-top: 2.5rem;
     background-color: white;
     display: grid;
     grid-template-columns: repeat(2,50%);
@@ -231,6 +240,14 @@ header{
     text-align: center;
 }
 
+.un-boton{
+    padding: .8rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+    background-color:rgb(63,176, 129);
+    text-decoration: none;
+    color: rgb(53, 39, 129);
+}
 
 
 /*estilos del footer*/
@@ -263,30 +280,9 @@ header{
 
 
 
-
-/*
-
-.colaboradores{
-    margin: 20px;
-}
-
-.colaboradores div p{
-    margin: 10px;
-    font-size: 20px;
-}
-
-
-
-.colaborador p{
-    font-size: 20px;
-}
+/*no trabajado para segunda preentrega*/
 
 .formulario{
-    text-align: center;
-}
-
-.tabla{
-    margin: 20px;
     text-align: center;
 }
 
@@ -305,4 +301,4 @@ header{
 }
 
 
-*/
+
