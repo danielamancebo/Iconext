@@ -283,6 +283,77 @@ header{
     height: 2rem;   
 }
 
+/* md */
+
+@media (max-width:576px){
+    /*estilos el main*/
+        /*estilos del index*/
+            /*estilos del menu index*/
+
+.submenu-servicios ul li img{
+    height: 2rem;
+    width: 2rem;
+}
+
+            /*estilos de section index*/
+.servicios-left, .servicios-rigth {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.servicios-left img, .servicios-rigth img{
+    width: 80%;
+}
+
+        /*estilos de nosotros*/
+.banner-nosotros{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "foto-pedro-garcia foto-daniela-mancebo"
+        "foto-daniela-reyes foto-julian-capasso"
+}
+        
+.foto-equipo{
+    display: none;
+}
+
+.colaborador-left img, .colaborador-rigth img{
+    display: none;
+}
+
+        /*estilos de precios*/
+.lista-de-precios{
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+}
+
+.por-chofer, .por-transaccion{
+    margin:1rem;
+}
+
+    /*estilos de contacto*/
+.formulario-contacto{
+    width: 100%;
+}
+    
+    /*estilos del footer*/
+
+.pie-de-pagina a{
+    font-size: .8rem;
+}
+
+.redes img{
+    height: 1.2rem;
+}   
+}
+
+
+
 
 /*no trabajado para segunda preentrega*/
 
