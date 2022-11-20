@@ -54,9 +54,9 @@ header{
 
 .submenu-servicios ul{
     display: flex;
-    justify-content: center;
+    justify-content: center;    
     gap:2rem;
-}
+    }
 
 .submenu-servicios ul li{
     list-style: none;    
@@ -285,10 +285,15 @@ header{
 
 /* md */
 
-@media (max-width:576px){
+@media (max-width:576px) and (orientation:portrait){
     /*estilos el main*/
+
         /*estilos del index*/
             /*estilos del menu index*/
+
+.submenu-servicios h1{
+    font-size: 1.2rem;
+}
 
 .submenu-servicios ul li img{
     height: 2rem;
@@ -306,7 +311,12 @@ header{
     width: 80%;
 }
 
+
         /*estilos de nosotros*/
+.titulo-nosotros{
+    font-size: 1.2rem;
+}
+
 .banner-nosotros{
     display: grid;
     justify-items: center;
