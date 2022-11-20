@@ -31,11 +31,15 @@ header{
     font-size: 1.2rem;   
 }
 
-/*estilos del main*/
+    /*estilos del main*/
+
+        /*estilos del index*/
 
 .banner-index{
     width: 100%;
 }
+
+            /*estilos de menu*/
 
 .submenu-servicios{
     margin: 1rem;
@@ -66,6 +70,8 @@ header{
 .submenu-servicios ul li:hover{
     transform:scale(1.2)
 }
+
+            /*estilos de section*/
 
 .servicios-left div, .servicios-rigth div {
    margin: 1rem; 
@@ -105,6 +111,8 @@ header{
     right: 0;
 }
 
+        /*estilos de nosotros*/
+
 .titulo-nosotros{
     margin: .5rem;
     font-size: 1.5rem;
@@ -120,7 +128,6 @@ header{
         "foto-equipo foto-pedro-garcia foto-daniela-mancebo"
         "foto-equipo foto-daniela-reyes foto-julian-capasso"
 }
-
 
 .foto-equipo{
     grid-area: foto-equipo;
@@ -169,7 +176,7 @@ header{
 }
 
 .colaboradores img{
-    width: 12.5rem;
+    width: 40%;
 }
 
 .presentacion-precios{
