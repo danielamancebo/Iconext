@@ -39,7 +39,7 @@ header{
     width: 100%;
 }
 
-            /*estilos de menu*/
+            /*estilos de menu index*/
 
 .submenu-servicios{
     margin: 1rem;
@@ -71,7 +71,7 @@ header{
     transform:scale(1.2)
 }
 
-            /*estilos de section*/
+            /*estilos de section index*/
 
 .servicios-left div, .servicios-rigth div {
    margin: 1rem; 
@@ -122,13 +122,13 @@ header{
 .banner-nosotros{
     height: 660px;
     display: grid;
+    justify-items: center;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2,330px);
     grid-template-areas: 
         "foto-equipo foto-pedro-garcia foto-daniela-mancebo"
         "foto-equipo foto-daniela-reyes foto-julian-capasso"
 }
-
 .foto-equipo{
     grid-area: foto-equipo;
 }
@@ -150,6 +150,7 @@ header{
     text-align: center;
     font-size: 1.2rem;
 }
+            /*estilos de section-nosotros*/
 
 .colaborador-left div, .colaborador-rigth div{
     margin: 1rem; 
@@ -160,7 +161,6 @@ header{
 .colaborador-left div h2, .colaborador-rigth div h2{
     font-size: 1.2rem;
 }
-
 
 .colaborador-rigth{
     margin: 1rem;
@@ -178,6 +178,8 @@ header{
 .colaboradores img{
     width: 40%;
 }
+
+        /*estilos de precios*/
 
 .presentacion-precios{
     margin: 1rem;
@@ -197,6 +199,7 @@ header{
     margin-top: 2.5rem;
     background-color: white;
     display: grid;
+    justify-items: center;
     grid-template-columns: repeat(2,50%);
     grid-template-areas: 
         "precios-por-chofer precios-por-transaccion"
@@ -205,6 +208,9 @@ header{
 }
 
 .legales{
+    margin: 1rem;
+    font-size: .8rem;
+    text-align: center;
     grid-area: legales;
 }
 
@@ -224,11 +230,15 @@ header{
     grid-area: detalle-por-transaccion;
 }
 
-.legales{
-    margin: 1rem;
-    font-size: .8rem;
-    text-align: center;
+        /*estilos de tyc*/
+
+.alto-completo main{
+    height: 80vh; 
 }
+
+
+
+    /*estilos de botones*/
 
 .un-boton{
     padding: .8rem;
@@ -268,27 +278,26 @@ header{
 }
 
 
-
-
 /*no trabajado para segunda preentrega*/
 
-.formulario{
+.formulario-contacto{
     text-align: center;
 }
 
-.tyc{
+.links-tyc{
     margin: 20px;
 }
 
-.tyc ul{
+.links-tyc ul{
     list-style: none;
 }
 
 
-.tyc ul li a{
+.links-tyc ul li a{
     font-size: 20px;
     text-decoration: none;
 }
+
 
 
 
