@@ -119,30 +119,33 @@ header{
     text-align: center;
 }
 
+.banner-nosotros img{
+    width: 100%;
+}
+
 .banner-nosotros{
-    height: 660px;
     display: grid;
     justify-items: center;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2,330px);
+    grid-template-columns: auto;
+    grid-template-rows: auto;
     grid-template-areas: 
         "foto-equipo foto-pedro-garcia foto-daniela-mancebo"
         "foto-equipo foto-daniela-reyes foto-julian-capasso"
 }
 .foto-equipo{
-    grid-area: foto-equipo;
+    grid-area: foto-equipo;   
 }
 .foto-pedro-garcia{
-    grid-area: foto-pedro-garcia;
+    grid-area: foto-pedro-garcia;   
 }
 .foto-daniela-mancebo{
-    grid-area: foto-daniela-mancebo;
+    grid-area: foto-daniela-mancebo;   
 }
 .foto-julian-capasso{
-    grid-area: foto-julian-capasso;
+    grid-area: foto-julian-capasso;    
 }
 .foto-daniela-reyes{
-    grid-area: foto-daniela-reyes;
+    grid-area: foto-daniela-reyes;   
 }
 
 .quienes-somos{
@@ -150,6 +153,7 @@ header{
     text-align: center;
     font-size: 1.2rem;
 }
+
             /*estilos de section-nosotros*/
 
 .colaborador-left div, .colaborador-rigth div{
@@ -195,6 +199,10 @@ header{
     margin-bottom: 2rem;
 }
 
+.lista-de-precios img{
+    width: 100%;
+}
+
 .lista-de-precios{
     margin-top: 2.5rem;
     background-color: white;
@@ -233,10 +241,8 @@ header{
         /*estilos de tyc*/
 
 .alto-completo main{
-    height: 80vh; 
+    height: 83vh; 
 }
-
-
 
     /*estilos de botones*/
 
