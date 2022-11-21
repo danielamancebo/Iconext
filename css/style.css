@@ -245,11 +245,13 @@ header{
 }
 
 .presentacion-tyc{
+    margin: 1rem;
     text-align: center;
 }
 
         /*estilos de contacto*/
 .presentacion-contacto{
+    margin: 1rem;
     text-align: center;
 }
 
