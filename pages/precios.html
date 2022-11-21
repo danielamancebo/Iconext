@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <!--CSS-->
     <link rel="stylesheet" href="../css/style.css">
     <!--link de animaciones-->
@@ -17,23 +19,26 @@
 <body>
    <!--ENCABEZADO-->
    <header>
-        <div class="menu">
-            <a href="../index.html"><img class="animate__animated animate__pulse" src="../img/logotipo-iconext.png" alt="Logotipo Iconext"></a>
-            <nav>
-                <ul>
-                    <li><a href="./nosotros.html"> NOSOTROS </a></li>
-                    <li><a href="./precios.html"> PRECIOS </a></li>
-                    <li><a href="./contacto.html"> CONTACTO </a></li>
-                    <li><a class="un-boton" href="https://app.iconext.io"> LOGIN </a></li>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html"><img class="img-menu animate__animated animate__pulse" src="../img/logotipo-iconext.png" alt="Logotipo Iconext"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="menu collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="../pages/nosotros.html"> NOSOTROS </a></li>
+                    <li class="nav-item"><a class="nav-link" href="../pages/precios.html"> PRECIOS </a></li>
+                    <li class="nav-item"><a class="nav-link" href="../pages/contacto.html"> CONTACTO </a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://app.iconext.io"> LOGIN </a></li>
                 </ul>
-            </nav>
+            </div>
         </div>
+    </nav>
     </header>
 
     <!--CONTENIDO PRINCIPAL-->
     <main>
-        <div class="contenedor">
-
             <div class="presentacion-precios"> 
                 <h1>Elegi el mejor plan para vos</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime obcaecati, id veritatis aperiam expedita, assumenda voluptates accusamus eos nisi, numquam adipisci nemo quos. Illo accusamus quam, enim ut perspiciatis ratione!</p>
@@ -41,18 +46,21 @@
             </div> 
 
             <div class="lista-de-precios">
-                <img class="precios-por-chofer" src="../img/precios-por-chofer.png" alt="Precios por chofer">
-                <img class="precios-por-transaccion" src="../img/precios-por-transaccion.png" alt="Precios por transaccion">
-                <img class="detalle-por-chofer" src="../img/detalle-por-chofer.png" alt="Detalle por chofer">
-                <img class="detalle-por-transaccion" src="../img/detalle-por-transaccion.png" alt="Detalle por transaccion">
-            
+                <div class="por-chofer">
+                    <img class="precios-por-chofer" src="../img/precios-por-chofer.png" alt="Precios por chofer">
+                    <img class="detalle-por-chofer" src="../img/detalle-por-chofer.png" alt="Detalle por chofer">
+                </div>
+                <div class="por-transaccion">
+                    <img class="precios-por-transaccion" src="../img/precios-por-transaccion.png" alt="Precios por transaccion">
+                    <img class="detalle-por-transaccion" src="../img/detalle-por-transaccion.png" alt="Detalle por transaccion">
+                </div>
                 <p class="legales">(*) Valores al 10/11/2022.
                 Los precios no incluyen IVA,
                 Todos los abonos son cobrados en pesos argentinos. 
                 Los valores de abono por tranasacción son Micro USD 0,15, Pequeñas USD 0,14, Medianas USD 0,12, Grandes USD 0,10 al tipo de cambio oficial del dia de la facturación.
                 Los valores de abono por suscripción son Seed USD 27,00, Sprout USD 50,00, Grow USD 85,00, Bloom USD 121,00 al tipo de cambio oficial del dia de la facturación.</p>
             </div>    
-        </div>
+
     </main>
 
     <!--PIE DE PAGINA-->
@@ -67,5 +75,9 @@
             </div>
         </div>
     </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    
 </body>
 </html>
