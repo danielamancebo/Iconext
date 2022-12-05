@@ -1,0 +1,15 @@
+/* estilos de la pagina contacto - sin header y footer */
+
+main{
+    @include estilos-basicos
+}
+
+.presentacion-contacto{
+    @include presentaciones
+}
+.formulario-contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}

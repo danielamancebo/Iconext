@@ -1,0 +1,28 @@
+/* estilos del header*/
+
+header{
+    @include estilos-basicos;
+    background-color: $color-fondo;
+    position: sticky;
+    top:0;
+    border: .01rem solid $color-marca-verde;
+    .img-menu{
+        height: 3rem;
+    }
+    .menu{
+        ul{
+            li{
+                a{
+                    text-decoration: none;
+                    color: $color-marca-azul;
+                    font-size: $size-subtitulos;
+                }
+            }
+        }
+    }
+
+}
+
+
+    
+  

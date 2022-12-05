@@ -1,0 +1,26 @@
+/* estilos de la pagina tyc - sin header y footer */
+
+.alto-completo main{
+    height: 83vh;
+
+}
+
+main{
+    @include estilos-basicos
+}
+
+.presentacion-tyc{
+    @include presentaciones
+}
+
+.links-tyc{
+    ul{
+        list-style: none;
+        li{
+            a{
+                font-size: $size-subtitulos;
+                text-decoration: none;
+            }
+        }
+    }
+}

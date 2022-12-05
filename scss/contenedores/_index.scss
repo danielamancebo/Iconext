@@ -1,0 +1,77 @@
+/* estilos de la pagina index - sin header y footer */
+
+main{
+    @include estilos-basicos
+}
+
+.banner-index{
+    width: 100%;
+}
+    /*submenu*/
+
+.submenu-servicios{
+    margin: 1rem;
+    text-align: center;
+    h1{
+        font-size: $size-titulos;
+    }
+   ul{
+        @include flex-center;
+        gap: 2rem;
+        li{
+            list-style: none;
+            img{
+                height: 3.5rem;
+                width: 3.5rem;
+
+            }    
+        }
+        li:hover{
+            transform: scale(1.2);
+        }
+   } 
+}
+    /*section*/
+
+section{
+    .servicios-left{
+        margin: 1rem;
+        @include flex-center;
+        img{
+            @extend %tamaño-30;
+        }
+        div{
+            h2{
+                @extend %alineacion-subtitulos-alternados;
+            }
+            p{
+                @extend %alineacion-parrafos-alternados;       
+            }
+        }   
+    }
+    .servicios-rigth{
+        margin: 1rem;
+        @include flex-center;
+        flex-direction: row-reverse;
+        img{
+            @extend %tamaño-30;
+        }
+        div{
+            h2{
+            @extend %alineacion-subtitulos-alternados;
+        }
+        p{
+            @extend %alineacion-parrafos-alternados; 
+         }
+        }   
+    }
+    .legales{
+        margin: 1rem;
+        font-size: $size-legales;
+    }
+
+    .ir-arriba{
+        @include boton-ir-arriba
+    }
+}
+

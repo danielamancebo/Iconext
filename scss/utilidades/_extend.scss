@@ -1,0 +1,27 @@
+%alineacion-parrafos-alternados{
+    margin: 1rem;
+    text-align: justify;
+    font-size: $size-parrafos;
+}
+
+%alineacion-subtitulos-alternados{
+    margin: 1rem;
+    text-align: justify;
+    font-size: $size-subtitulos
+}
+
+%tamaño-30{
+    width: 30%;
+}
+
+%alineacion-parrafos-alternados-md{
+    margin: 1rem;
+    text-align: justify;
+    font-size: $size-parrafos-md;
+}
+
+%alineacion-subtitulos-alternados-md{
+    margin: 1rem;
+    text-align: justify;
+    font-size: $size-subtitulos-md;
+}

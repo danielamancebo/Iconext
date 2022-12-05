@@ -1,0 +1,72 @@
+/* estilos de la pagina nosotros - sin header y footer */
+
+main{
+    @include estilos-basicos
+}
+
+
+.banner-nosotros{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "foto-equipo foto-pedro-garcia foto-daniela-mancebo"
+        "foto-equipo foto-daniela-reyes foto-julian-capasso";
+        img{
+            width: 100%;
+        }
+        .foto-equipo{
+            grid-area: foto-equipo;
+        }
+        .foto-pedro-garcia{
+            grid-area: foto-pedro-garcia;   
+        }
+        .foto-daniela-mancebo{
+            grid-area: foto-daniela-mancebo;   
+        }
+        .foto-julian-capasso{
+            grid-area: foto-julian-capasso;    
+        }
+        .foto-daniela-reyes{
+            grid-area: foto-daniela-reyes;   
+        }
+}
+.quienes-somos{
+    @include presentaciones  
+}
+
+section{
+    .colaborador-left{
+        margin: 1rem;
+        @include flex-center;
+        img{
+            @extend %tamaño-30;
+        }
+        div{
+            h2{
+                @extend %alineacion-subtitulos-alternados;
+            }
+            p{
+                @extend %alineacion-parrafos-alternados;       
+            }
+        }   
+    }
+    .colaborador-rigth{
+        margin: 1rem;
+        @include flex-center;
+        flex-direction: row-reverse;
+        img{
+            @extend %tamaño-30;
+        }
+        div{
+            h2{
+            @extend %alineacion-subtitulos-alternados;
+        }
+        p{
+            @extend %alineacion-parrafos-alternados; 
+         }
+        }   
+    }
+    }
+
