@@ -35,7 +35,7 @@
         text-align: center;
     }
     p{
-        font-size: $size-parrafos;
+        font-size: $size-copetes;
         margin-bottom: 2rem;
         text-align: center;
     }
@@ -51,7 +51,7 @@
 
 @mixin flex-space{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
 }
 

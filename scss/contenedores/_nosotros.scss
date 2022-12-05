@@ -41,7 +41,7 @@ section{
         margin: 1rem;
         @include flex-center;
         img{
-            @extend %tamaño-30;
+            width: 30%;
         }
         div{
             h2{
@@ -57,7 +57,7 @@ section{
         @include flex-center;
         flex-direction: row-reverse;
         img{
-            @extend %tamaño-30;
+            width: 30%;
         }
         div{
             h2{

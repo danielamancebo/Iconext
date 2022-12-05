@@ -1,0 +1,132 @@
+/* estilos de mediaquerys */
+
+@media (max-width:576px) and (orientation:portrait){
+    /*index*/
+    .submenu-servicios{
+        h1{
+            font-size: $size-titulos-md;
+        }
+        ul{
+            li{
+                img{
+                    height: 2.5rem;
+                    width: 2.5rem;
+                }
+            }
+        }
+    }
+    .servicios-rigth,.servicios-left{
+        background-color: blue;
+        margin: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img{
+            width: 80%;
+        }
+        div{
+            h2{
+                font-size: $size-subtitulos-md;
+            }
+            p{
+                font-size: $size-parrafos-md;
+            }
+        }
+    }
+    /*nosotros*/
+    .quienes-somos{
+        h1{
+            font-size: $size-titulos-md;
+        }
+        p{
+            font-size: $size-copetes-md;
+        }
+        
+    }
+    
+    .banner-nosotros{
+        display: grid;
+        justify-items: center;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "foto-pedro-garcia foto-daniela-mancebo"
+        "foto-daniela-reyes foto-julian-capasso"
+    }
+    .foto-equipo{
+        display: none;
+    }
+    .colaborador-left, .colaborador-rigth{
+        img{
+            display: none;
+        }
+        h2{
+            font-size: $size-subtitulos-md;
+        }
+        p{
+            font-size: $size-parrafos-md;
+        }
+    }
+    /*precios*/
+    .presentacion-precios{
+        h1{
+            font-size: $size-titulos-md;
+        }
+        p{
+            font-size: $size-copetes-md;
+        }
+    }
+
+    .lista-de-precios{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .por-chofer, .por-transaccion{
+        margin: 1rem;
+    }
+    /*contacto*/
+    .presentacion-contacto{
+        h1{
+            font-size: $size-titulos-md;
+        }
+        p{
+            font-size: $size-copetes-md;
+        }
+    }
+    .formulario-contacto{
+        width: 100%;
+    }
+    /*tyc*/
+    .presentacion-tyc{
+        h1{
+            font-size: $size-titulos-md;
+        }
+        p{
+            font-size: $size-copetes-md;
+        }
+    }
+    .links-tyc{
+        ul{
+            li{
+                a{
+                    font-size: $size-copetes-md;
+                }
+            }
+        }
+    }
+    /*footer*/
+    .pie-de-pagina{
+        a{
+            font-size: $size-parrafos-md;
+        }
+        .redes{
+            a{
+                img{
+                   width: 1rem;
+                   height: 1rem;
+                }
+            }
+        }
+    }
+}
