@@ -257,16 +257,28 @@ main {
   .submenu-servicios ul li img {
     height: 2.5rem;
     width: 2.5rem; }
-  .servicios-rigth, .servicios-left {
+  section .servicios-left {
     margin: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center; }
-    .servicios-rigth img, .servicios-left img {
-      width: 80%; }
-    .servicios-rigth div h2, .servicios-left div h2 {
+    section .servicios-left img {
+      width: 50%; }
+    section .servicios-left div h2 {
       font-size: 1rem; }
-    .servicios-rigth div p, .servicios-left div p {
+    section .servicios-left div p {
+      font-size: 0.8rem; }
+  section .servicios-rigth {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; }
+    section .servicios-rigth img {
+      width: 50%; }
+    section .servicios-rigth div h2 {
+      font-size: 1rem; }
+    section .servicios-rigth div p {
       font-size: 0.8rem; }
   /*nosotros*/
   .quienes-somos h1 {
@@ -281,11 +293,11 @@ main {
     grid-template-areas: "foto-pedro-garcia foto-daniela-mancebo" "foto-daniela-reyes foto-julian-capasso"; }
   .foto-equipo {
     display: none; }
-  .colaborador-left img, .colaborador-rigth img {
+  section .colaborador-left img, section .colaborador-rigth img {
     display: none; }
-  .colaborador-left h2, .colaborador-rigth h2 {
+  section .colaborador-left h2, section .colaborador-rigth h2 {
     font-size: 1rem; }
-  .colaborador-left p, .colaborador-rigth p {
+  section .colaborador-left p, section .colaborador-rigth p {
     font-size: 0.8rem; }
   /*precios*/
   .presentacion-precios h1 {
