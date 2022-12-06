@@ -138,16 +138,20 @@
     }
     /*footer*/
     .pie-de-pagina{
+        display: flex;
+        flex-direction: column;
         a{
-            font-size: $size-parrafos-md;
+            font-size: $size-legales-md;
         }
         .redes{
-            a{
+            ul{
+                a{
                 img{
                    width: 1rem;
                    height: 1rem;
                 }
-            }
+                }
+            }   
         }
     }
 }

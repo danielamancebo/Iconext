@@ -1,6 +1,7 @@
 /* estilos de footer */
 
 .pie-de-pagina{
+    width: 100%;
     @include estilos-basicos;
     background-color: $color-marca-verde;
     margin-top: .5rem;
@@ -8,9 +9,13 @@
     a{
         margin: 1rem;
         text-decoration: none;   
-        color:$color-marca-azul     
+        color:$color-marca-azul;
+        font-size: $size-legales;         
     }
     .redes{
+        ul{
+            list-style: none;
+            @include flex-center;
             a{
                 img{
                     margin: 1rem;
@@ -19,6 +24,9 @@
                     width: 2rem;
                 }
              }
+
+        }
+            
     }
     
 }
