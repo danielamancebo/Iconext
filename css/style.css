@@ -296,7 +296,7 @@ main {
     justify-items: center;
     grid-template-columns: auto;
     grid-template-rows: auto;
-    grid-template-areas: "foto-pedro-garcia foto-daniela-mancebo" "foto-daniela-reyes foto-julian-capasso"; }
+    grid-template-areas: "foto-pedro-garcia foto-daniela-mancebo" "foto-carlos-bernardi foto-victor-vitullo"; }
   .foto-equipo {
     display: none; }
   section .colaborador-left img, section .colaborador-rigth img {
