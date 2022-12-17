@@ -12,7 +12,7 @@ main{
     grid-template-rows: auto;
     grid-template-areas: 
         "foto-equipo foto-pedro-garcia foto-daniela-mancebo"
-        "foto-equipo foto-daniela-reyes foto-julian-capasso";
+        "foto-equipo foto-carlos-bernardi foto-victor-vitullo";
         img{
             width: 100%;
         }
@@ -25,11 +25,11 @@ main{
         .foto-daniela-mancebo{
             grid-area: foto-daniela-mancebo;   
         }
-        .foto-julian-capasso{
-            grid-area: foto-julian-capasso;    
+        .foto-victor-vitullo{
+            grid-area: foto-victor-vitullo;    
         }
-        .foto-daniela-reyes{
-            grid-area: foto-daniela-reyes;   
+        .foto-carlos-bernardi{
+            grid-area: foto-carlos-bernardi;   
         }
 }
 .quienes-somos{
