@@ -97,7 +97,7 @@ main {
   justify-items: center;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
-  grid-template-areas: "foto-equipo foto-pedro-garcia foto-daniela-mancebo" "foto-equipo foto-daniela-reyes foto-julian-capasso"; }
+  grid-template-areas: "foto-equipo foto-pedro-garcia foto-daniela-mancebo" "foto-equipo foto-carlos-bernardi foto-victor-vitullo"; }
   .banner-nosotros img {
     width: 100%; }
   .banner-nosotros .foto-equipo {
@@ -106,10 +106,10 @@ main {
     grid-area: foto-pedro-garcia; }
   .banner-nosotros .foto-daniela-mancebo {
     grid-area: foto-daniela-mancebo; }
-  .banner-nosotros .foto-julian-capasso {
-    grid-area: foto-julian-capasso; }
-  .banner-nosotros .foto-daniela-reyes {
-    grid-area: foto-daniela-reyes; }
+  .banner-nosotros .foto-victor-vitullo {
+    grid-area: foto-victor-vitullo; }
+  .banner-nosotros .foto-carlos-bernardi {
+    grid-area: foto-carlos-bernardi; }
 
 .quienes-somos {
   margin: 1rem; }
@@ -202,9 +202,8 @@ main {
 
 .formulario-contacto {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
+  align-items: center;
+  justify-content: center; }
 
 /* estilos de la pagina tyc - sin header y footer */
 .alto-completo main {
@@ -339,3 +338,29 @@ main {
     .pie-de-pagina .redes ul a img {
       width: 1rem;
       height: 1rem; } }
+
+@media (max-width: 768px) and (min-width: 576px) {
+  /*index*/
+  section .servicios-left {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    section .servicios-left img {
+      width: 50%; }
+  section .servicios-rigth {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; }
+    section .servicios-rigth img {
+      width: 50%; }
+  section .colaborador-left img, section .colaborador-rigth img {
+    display: none; }
+  /*precios*/
+  .lista-de-precios {
+    display: flex;
+    flex-direction: column; }
+  .por-chofer, .por-transaccion {
+    margin: 1rem; } }
