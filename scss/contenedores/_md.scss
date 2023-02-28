@@ -52,42 +52,6 @@
         }
     }
 
-
-
-    /*nosotros*/
-    .quienes-somos{
-        h1{
-            font-size: $size-titulos-md;
-        }
-        p{
-            font-size: $size-copetes-md;
-        }
-        
-    }
-    
-    .banner-nosotros{
-        display: grid;
-        justify-items: center;
-        grid-template-columns: auto;
-        grid-template-rows: auto;
-        grid-template-areas: 
-        "foto-pedro-garcia foto-daniela-mancebo"
-        "foto-carlos-bernardi foto-victor-vitullo"
-    }
-    .foto-equipo{
-        display: none;
-    }
-    section .colaborador-left, section .colaborador-rigth{
-        img{
-            display: none;
-        }
-        h2{
-            font-size: $size-subtitulos-md;
-        }
-        p{
-            font-size: $size-parrafos-md;
-        }
-    }
     /*precios*/
     .presentacion-precios{
         h1{
