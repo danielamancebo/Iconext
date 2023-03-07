@@ -15,32 +15,20 @@ main{
 
 .lista-de-precios{
     margin-top: 2.5rem;
-    background-color: white;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-areas: 
-        "precios-por-chofer precios-por-transaccion"
-        "detalle-por-chofer detalle-por-transaccion"
+        "precios-por-repartidor precios-por-transaccion"
         "legales legales";
         .precios-por-chofer{
-            grid-area: precios-por-chofer;
+            grid-area: precios-por-repartidor;
             width: 100%;
         }
-        
         .precios-por-transaccion{
             grid-area: precios-por-transaccion;
             width: 100%;
         }
-        
-        .detalle-por-chofer{
-            grid-area: detalle-por-chofer;
-            width: 100%;
-        }
-        
-        .detalle-por-transaccion{
-            grid-area: detalle-por-transaccion;
-            width: 100%;
-        }
+     
         .legales{
             margin: 1rem;
             font-size: $size-legales;
