@@ -3,15 +3,15 @@
   padding: 0;
   box-sizing: border-box; }
 
-section .servicios-left div p, section .servicios-rigth div p, section .colaborador-left div p, section .colaborador-rigth div p {
-  margin: 2rem;
+section .servicios-left div p, section .servicios-rigth div p {
+  margin: 1rem;
   text-align: justify;
-  font-size: 1.5rem; }
+  font-size: 1rem; }
 
-section .servicios-left div h2, section .servicios-rigth div h2, section .colaborador-left div h2, section .colaborador-rigth div h2 {
-  margin: 2rem;
+section .servicios-left div h2, section .servicios-rigth div h2 {
+  margin: 1rem;
   text-align: justify;
-  font-size: 1.5rem; }
+  font-size: 1.2rem; }
 
 /* estilos del header*/
 header {
@@ -57,23 +57,21 @@ main {
 
 /*section*/
 section .servicios-left {
-  margin: 2rem;
+  margin: 1rem;
   display: flex;
   justify-content: center;
   align-items: center; }
   section .servicios-left img {
-    margin-right: 2rem;
-    width: 40%; }
+    width: 30%; }
 
 section .servicios-rigth {
-  margin: 2rem;
+  margin: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row-reverse; }
   section .servicios-rigth img {
-    margin-left: 2rem;
-    width: 40%; }
+    width: 30%; }
 
 section .legales {
   margin: 1rem;
@@ -88,57 +86,6 @@ section .ir-arriba img {
   position: fixed;
   bottom: 0;
   right: 0; }
-
-/* estilos de la pagina nosotros - sin header y footer */
-main {
-  font-family: "Montserrat", sans-serif;
-  color: #352781; }
-
-.banner-nosotros {
-  display: grid;
-  justify-items: center;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
-  grid-template-areas: "foto-equipo foto-pedro-garcia foto-daniela-mancebo" "foto-equipo foto-carlos-bernardi foto-victor-vitullo"; }
-  .banner-nosotros img {
-    width: 100%; }
-  .banner-nosotros .foto-equipo {
-    grid-area: foto-equipo; }
-  .banner-nosotros .foto-pedro-garcia {
-    grid-area: foto-pedro-garcia; }
-  .banner-nosotros .foto-daniela-mancebo {
-    grid-area: foto-daniela-mancebo; }
-  .banner-nosotros .foto-victor-vitullo {
-    grid-area: foto-victor-vitullo; }
-  .banner-nosotros .foto-carlos-bernardi {
-    grid-area: foto-carlos-bernardi; }
-
-.quienes-somos {
-  margin: 1rem; }
-  .quienes-somos h1 {
-    font-size: 1.5rem;
-    text-align: center; }
-  .quienes-somos p {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
-    text-align: center; }
-
-section .colaborador-left {
-  margin: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  section .colaborador-left img {
-    width: 30%; }
-
-section .colaborador-rigth {
-  margin: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row-reverse; }
-  section .colaborador-rigth img {
-    width: 30%; }
 
 /* estilos de la pagina precios - sin header y footer */
 main {
@@ -165,21 +112,14 @@ main {
 
 .lista-de-precios {
   margin-top: 2.5rem;
-  background-color: white;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-areas: "precios-por-chofer precios-por-transaccion" "detalle-por-chofer detalle-por-transaccion" "legales legales"; }
+  grid-template-areas: "precios-por-repartidor precios-por-transaccion" "legales legales"; }
   .lista-de-precios .precios-por-chofer {
-    grid-area: precios-por-chofer;
+    grid-area: precios-por-repartidor;
     width: 100%; }
   .lista-de-precios .precios-por-transaccion {
     grid-area: precios-por-transaccion;
-    width: 100%; }
-  .lista-de-precios .detalle-por-chofer {
-    grid-area: detalle-por-chofer;
-    width: 100%; }
-  .lista-de-precios .detalle-por-transaccion {
-    grid-area: detalle-por-transaccion;
     width: 100%; }
   .lista-de-precios .legales {
     margin: 1rem;
@@ -288,25 +228,6 @@ main {
       font-size: 1rem; }
     section .servicios-rigth div p {
       font-size: 0.8rem; }
-  /*nosotros*/
-  .quienes-somos h1 {
-    font-size: 1.2rem; }
-  .quienes-somos p {
-    font-size: 1rem; }
-  .banner-nosotros {
-    display: grid;
-    justify-items: center;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    grid-template-areas: "foto-pedro-garcia foto-daniela-mancebo" "foto-carlos-bernardi foto-victor-vitullo"; }
-  .foto-equipo {
-    display: none; }
-  section .colaborador-left img, section .colaborador-rigth img {
-    display: none; }
-  section .colaborador-left h2, section .colaborador-rigth h2 {
-    font-size: 1rem; }
-  section .colaborador-left p, section .colaborador-rigth p {
-    font-size: 0.8rem; }
   /*precios*/
   .presentacion-precios h1 {
     font-size: 1.2rem; }
