@@ -4,14 +4,14 @@
   box-sizing: border-box; }
 
 section .servicios-left div p, section .servicios-rigth div p, section .colaborador-left div p, section .colaborador-rigth div p {
-  margin: 1rem;
+  margin: 2rem;
   text-align: justify;
-  font-size: 1rem; }
+  font-size: 1.5rem; }
 
 section .servicios-left div h2, section .servicios-rigth div h2, section .colaborador-left div h2, section .colaborador-rigth div h2 {
-  margin: 1rem;
+  margin: 2rem;
   text-align: justify;
-  font-size: 1.2rem; }
+  font-size: 1.5rem; }
 
 /* estilos del header*/
 header {
@@ -57,21 +57,23 @@ main {
 
 /*section*/
 section .servicios-left {
-  margin: 1rem;
+  margin: 2rem;
   display: flex;
   justify-content: center;
   align-items: center; }
   section .servicios-left img {
-    width: 30%; }
+    margin-right: 2rem;
+    width: 40%; }
 
 section .servicios-rigth {
-  margin: 1rem;
+  margin: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row-reverse; }
   section .servicios-rigth img {
-    width: 30%; }
+    margin-left: 2rem;
+    width: 40%; }
 
 section .legales {
   margin: 1rem;
